@@ -4,7 +4,7 @@ $(document).ready( function() {
 	var $logo 	= $('#logo');
     var $hellologo = $('#helloworld');
 	 if (location.href.indexOf("#") != -1) {
-        if(location.href.substr(location.href.indexOf("#"))!='#about'){
+        if(location.href.substr(location.href.indexOf("#"))!='#inicio'){
         	$logo.show();
         }
         else{
